@@ -25,7 +25,7 @@ EDA snapshot:
 Did some quick EDA to understand the data, have provided just a very brief snapshot.
 For eg., a general thought is that people with real estate ownership would default less, however, as per the data provided the ratio of defaults this isn’t true in our case.
 Also, below is a representation of how defaults are spread on a map of credit and annuity. 
-<img src="https://github.com/shivamtrivedi10/Capstone-Project/blob/master/Annuity%20and%20Credit.png" width="200"/>
+<img src="https://github.com/shivamtrivedi10/Capstone-Project/blob/master/Annuity%20and%20Credit.png" width="400"/>
 
 
 Getting Started:
