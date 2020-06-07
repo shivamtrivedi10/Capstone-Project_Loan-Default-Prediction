@@ -29,6 +29,8 @@ Also, below is a representation of how defaults are spread on a map of credit an
 <img src="https://github.com/shivamtrivedi10/Capstone-Project/blob/master/Annuity%20and%20Credit.png" width="400"/>
 
 
+<img src="/Users/st/Desktop/Images presentation/feature_imp.png" width="400"/>
+
 Getting Started:
 
 The best way to get started is to do data cleaning on the main application_train file, visualise the data and run a baseline model (like logistic regression) to check how it fares in terms of accuracy and recall.
