@@ -1,4 +1,7 @@
 # Capstone-Project
 Home Credit 
-<img src="./Annuity%20and%20Credit.png">
+<img src="./https://github.com/shivamtrivedi10/Capstone-Project/blob/master/Annuity%20and%20Credit.png">
+
+
+
 
