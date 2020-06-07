@@ -12,7 +12,7 @@ The Company has separately provided test data on which the competing teams will 
 
 A quick overview of all the files is below:
 
-<img src="./Application train.png" width="400"/>
+<img src="./Application train.png" width="800"/>
 
 
 This is a standard supervised classification problem. 
