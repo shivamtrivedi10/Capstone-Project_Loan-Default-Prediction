@@ -1,5 +1,5 @@
 # Capstone-Project Overview
-Home Credit 
+__Home Credit__ 
 
 I have provided below a quick snapshot of the steps taken in completing my Capstone Project.
 
