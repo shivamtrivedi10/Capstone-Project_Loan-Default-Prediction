@@ -12,6 +12,8 @@ The Company has separately provided test data on which the competing teams will 
 
 A quick overview of all the files is below:
 
+<img src="./Application train.png" width="400"/>
+
 
 This is a standard supervised classification problem. 
 Every row in the application_train file corresponds to information provided by the customer in the loan application at the time of applying. Every row also has a ‘Target’ label with values 0 (customer paid on time) and 1(customer had difficulty paying). Looking at the above table, one can observe that we have been provided with information of 307,511 customers in the training file.
@@ -29,7 +31,6 @@ Also, below is a representation of how defaults are spread on a map of credit an
 <img src="https://github.com/shivamtrivedi10/Capstone-Project/blob/master/Annuity%20and%20Credit.png" width="400"/>
 
 
-<img src="/Users/st/Desktop/Images presentation/feature_imp.png" width="400"/>
 
 Getting Started:
 
