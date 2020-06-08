@@ -3,7 +3,9 @@ __Home Credit__
 
 I have provided below a quick snapshot of the steps taken in completing my Capstone Project.
 
+<div style="text-align: justify"> 
 While searching for the main course Project (called CapStone at General Assembly), I decided that the Project should include application of all the tools and models that I have learned in my intensive 3 months Data Science course at GA, which meant it should have a medium to advanced application of python programming skills, data cleaning, statistical modelling as well as language processing. However, since time was of essence, I finally decided on a Project by ‘Home Credit’ which I found on Kaggle. While it did not require much NLP skills (or any), it did require a lot of feature engineering and modelling expertise, which I thought is what I can settle for as of now and can then take up an NLP side project in the future.
+</div>
 
 Home Credit, a  is an international non-banking financial company which provides loans to customers with no or not enough credit history who traditionally may not be able to get financed by banks or other NBFCs.
 
