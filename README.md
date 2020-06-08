@@ -90,7 +90,7 @@ So I applied SMOTE which improved the Recall score quite drastically, however, I
 <img src="./Graphs/score_lat.png" width="900"/>
 
 
-
+I will be uploading the code soon
 
 
 
