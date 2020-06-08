@@ -75,7 +75,19 @@ Since there are so many features,
 
 <img src="./Graphs/payment delay.png" width="400"/>
 
-There are many more features that I converted/developed using the above methodologies. To be sure, there is no way to know if the above feature transformations help in improving accuracy and recall scores, other than by comparing scores after from before and after. While there are studies available which indicate the above might help in decision trees. 
+There are many more features that I converted/developed using the above methodologies. To be sure, there is no way to know if the above feature transformations help in improving accuracy and recall scores, other than by comparing scores from before and after. While there are studies available which indicate the above might help in decision trees. 
+
+__Modelling__
+
+<div style="text-align: right">  
+
+Finally, I wanted to see how a Logistic Regression model, without sampling, would work. And the results, as expected, fared well on Accuracy, however, the Recall scores were extremely bad indicating, that the model was not predicting the labels correctly. 
+</div>
+
+So I applied SMOTE which improved the Recall score quite drastically, however, I am still working to improve the scores further.
+
+<img src="./Graphs/payment delay.png" width="400"/>
+
 
 
 
