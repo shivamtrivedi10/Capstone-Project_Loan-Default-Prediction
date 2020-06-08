@@ -5,17 +5,14 @@ I have provided below a quick snapshot of the steps taken in completing my Capst
 
 While searching for the main course Project (called CapStone at General Assembly), I decided that the Project should include application of all the tools and models that I have learned in my intensive 3 months Data Science course at GA, which meant it should have a medium to advanced application of python programming skills, data cleaning, statistical modelling as well as language processing. However, since time was of essence, I finally decided on a Project by ‘Home Credit’ which I found on Kaggle. While it did not require much NLP skills (or any), it did require a lot of feature engineering and modelling expertise, which I thought is what I can settle for as of now and can then take up an NLP side project in the future.
 
-Home Credit is an international non-banking financial company which provides loans to customers with no or not enough credit history who traditionally may not be able to get financed by banks or other NBFCs.
+Home Credit, a  is an international non-banking financial company which provides loans to customers with no or not enough credit history who traditionally may not be able to get financed by banks or other NBFCs.
 
 This Project is about predicting customers who will default based on information provided by a detailed loan application and other records including previous loan/payment records of the same customers as well credit-bureau information and external credit information from other sources.
 The Company has separately provided test data on which the competing teams will have to submit their predictions. Since I am doing this as part of my Course and may not be able to get my predictions verified from Home Credit as the Project is way past its due date, I will be splitting up the training data into train and test segments.
 
 A quick overview of all the files is below:
 
-<img src="./Application train.png" width="800"/>
-<img src="./application_test.png" width="800"/>
-<img src="./Prev_application.png" width="800"/>
-<img src="./installment_payments.png" width="800"/>
+<img src="./Files_overview.pdf" width="800"/>
 
 
 This is a standard supervised classification problem. 
@@ -26,7 +23,13 @@ The first aspect to be noticed is that ‘baseline Accuracy’ is at ~91% which 
 The above means that 91% of customers repay on time and 9% have problems. So if we were to make a model which predicts all customers as 0 (means paying on time) then we will still achieve an accuracy rate of 91%. So alongside accuracy, what matters more then is how many of the customers do we correctly predict, which is also called ‘Recall’. Hence our objective is to optimise on ‘Recall’ and ‘Accuracy’ scores. 
 
 A quick overview of the how the files look:
-EDA snapshot:
+
+<img src="./Application train.png" width="800"/>
+<img src="./application_test.png" width="800"/>
+<img src="./Prev_application.png" width="800"/>
+<img src="./installment_payments.png" width="800"/>
+
+__EDA snapshot:__
 Did some quick EDA to understand the data, have provided just a very brief snapshot.
 For eg., a general thought is that people with real estate ownership would default less, however, as per the data provided the ratio of defaults this isn’t true in our case.
 
@@ -38,7 +41,7 @@ Also, below is a representation of how defaults are spread on a map of credit an
 
 
 
-Getting Started:
+__Getting Started:__
 
 The best way to get started is to do data cleaning on the main application_train file, visualise the data and run a baseline model (like logistic regression) to check how it fares in terms of accuracy and recall.
 On doing that I got an accuracy of 91% (as expected) but a recall of ~14% (very bad).
