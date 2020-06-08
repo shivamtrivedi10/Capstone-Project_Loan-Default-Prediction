@@ -87,7 +87,7 @@ Finally, I wanted to see how a Logistic Regression model, without sampling, woul
 
 So I applied SMOTE which improved the Recall score quite drastically, however, I am still working to improve the scores further.
 
-<img src="./Graphs/payment delay.png" width="400"/>
+<img src="./Graphs/score_lat.png" width="400"/>
 
 
 
