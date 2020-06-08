@@ -79,7 +79,7 @@ There are many more features that I converted/developed using the above methodol
 
 __Modelling__
 
-<div style="text-align: right">  
+<div style="text-align: justify">  
 
 Finally, I wanted to see how a Logistic Regression model, without sampling, would work. And the results, as expected, fared well on Accuracy, however, the Recall scores were extremely bad indicating, that the model was not predicting the labels correctly. 
 </div>
