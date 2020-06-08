@@ -63,6 +63,8 @@ Since there are so many features,
 
 2. Bundling of feature labels so as to make it better for the model to estimate, the example below is from the ‘previous applications’ file where one of the features is about the purpose of cash loan availed by the customers :
 
+<img src="./name cash loan.png" width="400"/>
+<img src="./converted.png" width="400"/>
 
 
 
