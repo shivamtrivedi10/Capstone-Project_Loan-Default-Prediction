@@ -54,8 +54,14 @@ My approach will be :
 
 
 Some notes:
-Since there are so many features, I was attracted to the possibility of converting some continuous features to discrete for eg. no of Children, family size. Number of children ranged from  0 to 19 across all customer applications.
-Bundling of feature labels so as to make it better for the model to estimate, the example below is from the ‘previous applications’ file where one of the features is about the purpose of cash loan availed by the customers :
+Since there are so many features, 
+1. I was attracted to the possibility of converting some continuous features to discrete for eg. no of Children, family size. Number of children ranged from  0 to 19 across all customer applications.
+
+<img src="./No of children Vs Default rates.png" width="400"/>
+<img src="./no of children post engg.png" width="400"/>
+
+
+2. Bundling of feature labels so as to make it better for the model to estimate, the example below is from the ‘previous applications’ file where one of the features is about the purpose of cash loan availed by the customers :
 
 
 
