@@ -46,11 +46,11 @@ On doing that I got an accuracy of 91% (as expected) but a recall of ~14% (very 
 So, as a next step, I will go through all the other files and merge all the relevant data with the application_train file. And this will require a lot of feature engineering and manipulation. If I decide to aggregate features without any manipulation, it would result in feature sets that numbered in thousands (~1500), and it’s very likely that many, if not most, of those features are redundant, noisy, or both.
 
 My approach will be :
-	Keep all features while trying to remove less correlated features 
-	While trying to make them more effective as predictors
-	Create new features based on industry knowledge
-	 	- For eg. apply time based weights to previously delayed payments
-		- Similarly on any refused applications
+>Keep all features while trying to remove less correlated features 
+>While trying to make them more effective as predictors
+>Create new features based on industry knowledge
+>>For eg. apply time based weights to previously delayed payments
+>>Similarly on any refused applications
 
 
 Some notes:
