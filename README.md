@@ -66,15 +66,9 @@ Since there are so many features,
 <img src="./name cash loan.png" width="400"/>
 <img src="./converted.png" width="400"/>
 
-
-
-
-
-
-
-
-
 3. Created new features based on information provided, for eg. The following feature (graphically represented) was created by using chronological weights on payment delays or defaults, it shows how the defaults are spread is on a graph between this new feature and the credit amount, as can be seen, it does a good job at concentrating the defaults.
+
+<img src="./payment delay.png" width="400"/>
 
 There are many more features that I converted/developed using the above methodologies. To be sure, there is no way to know if the above feature transformations help in improving accuracy and recall scores, other than by comparing scores after from before and after. While there are studies available which indicate the above might help in decision trees. 
 
