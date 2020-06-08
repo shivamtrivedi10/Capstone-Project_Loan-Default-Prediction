@@ -12,7 +12,7 @@ The Company has separately provided test data on which the competing teams will 
 
 A quick overview of all the files is below:
 
-<img src="./Files_overview.png" width="800"/>
+<img src="./Graphs/Files_overview.png" width="800"/>
 
 
 This is a standard supervised classification problem. 
@@ -24,16 +24,16 @@ The above means that 91% of customers repay on time and 9% have problems. So if 
 
 A quick overview of the how the files look:
 
-<img src="./Application train.png" width="800"/>
-<img src="./application_test.png" width="800"/>
-<img src="./Prev_application.png" width="800"/>
-<img src="./installment_payments.png" width="800"/>
+<img src="./Graphs/Application train.png" width="800"/>
+<img src="./Graphs/application_test.png" width="800"/>
+<img src="./Graphs/Prev_application.png" width="800"/>
+<img src="./Graphs/installment_payments.png" width="800"/>
 
 __EDA snapshot:__
 Did some quick EDA to understand the data, have provided just a very brief snapshot.
 For eg., a general thought is that people with real estate ownership would default less, however, as per the data provided the ratio of defaults this isn’t true in our case.
 
-<img src="./Reakty Vs Target.png" width="400"/>
+<img src="./Graphs/Reakty Vs Target.png" width="400"/>
 
 Also, below is a representation of how defaults are spread on a map of credit and annuity.
 
@@ -62,18 +62,18 @@ Some notes:
 Since there are so many features, 
 1. I was attracted to the possibility of converting some continuous features to discrete for eg. no of Children, family size. Number of children ranged from  0 to 19 across all customer applications.
 
-<img src="./No of children Vs Default rates.png" width="400"/>
-<img src="./no of children post engg.png" width="400"/>
+<img src="./Graphs/No of children Vs Default rates.png" width="400"/>
+<img src="./Graphs/no of children post engg.png" width="400"/>
 
 
 2. Bundling of feature labels so as to make it better for the model to estimate, the example below is from the ‘previous applications’ file where one of the features is about the purpose of cash loan availed by the customers :
 
-<img src="./name cash loan.png" width="400"/>
-<img src="./converted.png" width="400"/>
+<img src="./Graphs/name cash loan.png" width="400"/>
+<img src="./Graphs/converted.png" width="400"/>
 
 3. Created new features based on information provided, for eg. The following feature (graphically represented) was created by using chronological weights on payment delays or defaults, it shows how the defaults are spread is on a graph between this new feature and the credit amount, as can be seen, it does a good job at concentrating the defaults.
 
-<img src="./payment delay.png" width="400"/>
+<img src="./Graphs/payment delay.png" width="400"/>
 
 There are many more features that I converted/developed using the above methodologies. To be sure, there is no way to know if the above feature transformations help in improving accuracy and recall scores, other than by comparing scores after from before and after. While there are studies available which indicate the above might help in decision trees. 
 
