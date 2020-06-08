@@ -37,7 +37,9 @@ For eg., a general thought is that people with real estate ownership would defau
 
 Also, below is a representation of how defaults are spread on a map of credit and annuity.
 
-<img src="https://github.com/shivamtrivedi10/Capstone-Project/blob/master/Annuity%20and%20Credit.png" width="400"/>
+<img src="./Graphs/Annuity and Credit.png" width="400"/>
+
+
 
 
 
