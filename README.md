@@ -45,7 +45,7 @@ Also, below is a representation of how defaults are spread on a map of credit an
 
 
 
-__Getting Started:__
+## __Getting Started:__
 
 The best way to get started is to do data cleaning on the main application_train file, visualise the data and run a baseline model (like logistic regression) to check how it fares in terms of accuracy and recall.
 On doing that I got an accuracy of 91% (as expected) but a recall of ~14% (very bad).
@@ -80,7 +80,7 @@ Since there are so many features,
 
 There are many more features that I converted/developed using the above methodologies. To be sure, there is no way to know if the above feature transformations help in improving accuracy and recall scores, other than by comparing scores from before and after. While there are studies available which indicate the above might help in decision trees. 
 
-__Modelling__
+## Modelling
 
 <div style="text-align: justify">  
 
