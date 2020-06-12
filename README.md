@@ -1,10 +1,13 @@
-# Capstone Project Overview
+# Capstone Project Overview - Home Credit
 
 ## Table of Contents
-[Project Summary](#Project-Name--Home-Credit) </br>
+[Project Summary](#Summary) </br>
 [EDA](#EDA-snapshot)
+[Feature Engineering](#Feature Modification/Engineering)
+[Modelling](#Modelling)
 
-##  Project Name: Home Credit
+
+##  Summary
 
 I have provided below a quick snapshot of the steps taken in completing my Capstone Project.
 
