@@ -1,7 +1,7 @@
 # Capstone Project Overview
 
 ## Table of Contents
-[Project Summary](#Project-Name:-Home-Credit) </br>
+[Project Summary](#Project-Name--Home-Credit) </br>
 [EDA](#EDA-snapshot)
 
 ##  Project Name: Home Credit
