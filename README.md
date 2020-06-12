@@ -97,7 +97,7 @@ Finally, I wanted to see how a Logistic Regression model, without sampling, woul
 
 So I applied SMOTE which improved the Recall score quite drastically, however, I am still working to improve the scores further.
 
-<img src="./Graphs/score_lat.png" width="900"/>
+<img src="./Graphs/Scores_highlighted.png" width="900"/>
 
 The accompanying code is:
 1. Application_train_git - which is to showcase how this particular file was cleaned, feature engineered and saved so as to be later on be merged into the final file which will be used to model the data. Similarly, other files were also worked upon.
