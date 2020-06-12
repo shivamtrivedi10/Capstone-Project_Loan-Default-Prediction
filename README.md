@@ -2,7 +2,7 @@
 
 ## Table of Contents
 [Project Summary](#Home-Credit)
-[EDA](#EDA)
+[EDA](# EDA)
 
 ##  Project Name: Home Credit
 
