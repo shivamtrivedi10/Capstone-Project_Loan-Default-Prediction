@@ -107,4 +107,4 @@ Finally, the feature importances are as below:
 
 <img src="./Graphs/Feature_imp.png" width="900"/>
 
-Price of goods bought from loan and Credit amount are the top two defining features, however, as we keep working towards improving the scores this will probably change. Some of higher scoring models, that I saw, on Kaggle had 'Ext_source_2' (which is at fourth position above) as the topmost feature. So I would think, feature importances will change with model improvement.
+Price of goods bought from loan and Credit amount are the top two defining features, however, as we keep working towards improving the scores this will probably change. Some of the higher scoring models, that I saw, on Kaggle had 'Ext_source_2' (which is at fourth position above) as the topmost feature. So I would think, feature importances will change with model improvement.
