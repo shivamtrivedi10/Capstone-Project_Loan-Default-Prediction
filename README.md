@@ -1,5 +1,5 @@
-# Capstone-Project Overview
-## Home Credit
+# Capstone Project Overview
+## Project Name: Home Credit
 
 I have provided below a quick snapshot of the steps taken in completing my Capstone Project.
 
@@ -31,7 +31,7 @@ A quick overview of how the files look:
 <img src="./Graphs/Prev_application.png" width="800"/>
 <img src="./Graphs/installment_payments.png" width="800"/>
 
-__EDA snapshot__
+## __EDA snapshot__
 Did some quick EDA to understand the data, have provided just a very brief snapshot.
 For eg., a general thought is that people with real estate ownership would default less, however, as per the data provided the ratio of defaults this isn’t true in our case.
 
