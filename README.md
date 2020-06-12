@@ -2,8 +2,9 @@
 
 ## Table of Contents
 [Project Summary](#Home-Credit)
+[EDA](#EDA)
 
-##  Name: Home Credit
+##  Project Name: Home Credit
 
 I have provided below a quick snapshot of the steps taken in completing my Capstone Project.
 
