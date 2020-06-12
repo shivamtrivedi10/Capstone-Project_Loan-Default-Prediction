@@ -3,7 +3,7 @@
 ## Table of Contents
 [Project Summary](#Summary) </br>
 [EDA](#EDA-snapshot) </br>
-[Feature Engineering](#Feature Modification-Engineering) </br>
+[Feature Engineering](#Feature-Engineering) </br>
 [Modelling](#Modelling)
 
 
@@ -53,7 +53,7 @@ Also, below is a representation of how defaults are spread on a map of credit an
 
 
 
-## Feature Modification/Engineering
+## Feature Engineering
 
 The best way to get started is to do data cleaning on the main application_train file, visualise the data and run a baseline model (like logistic regression) to check how it fares in terms of accuracy and recall.
 On doing that I got an accuracy of 91% (as expected) but a recall of ~14% (very bad).
