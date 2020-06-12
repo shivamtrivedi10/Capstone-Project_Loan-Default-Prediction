@@ -2,8 +2,8 @@
 
 ## Table of Contents
 [Project Summary](#Summary) </br>
-[EDA](#EDA-snapshot)
-[Feature Engineering](#Feature Modification/Engineering)
+[EDA](#EDA-snapshot) </br>
+[Feature Engineering](#Feature Modification/Engineering) </br>
 [Modelling](#Modelling)
 
 
