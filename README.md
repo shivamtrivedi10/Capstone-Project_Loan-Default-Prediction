@@ -4,13 +4,13 @@ __Home Credit__
 I have provided below a quick snapshot of the steps taken in completing my Capstone Project.
 
 <div style="text-align: justify"> 
-While searching for the main course Project (called CapStone at General Assembly), I decided that the Project should include application of all the tools and models that I have learned in my intensive 3 months Data Science course at GA, which meant it should have a medium to advanced application of python programming skills, data cleaning, statistical modelling as well as language processing. However, since time was of essence, I finally decided on a Project by ‘Home Credit’ which I found on Kaggle. While it did not require much NLP skills (or any), it did require a lot of feature engineering and modelling expertise, which I thought is what I can settle for as of now and can then take up an NLP side project in the future.
+While searching for the main course Project (called CapStone at General Assembly), I decided that the Project should include application of all the tools and models that I have learned in the intensive 3 months Data Science course at GA, which meant it should have a medium to advanced application of python programming skills, data cleaning, statistical modelling as well as language processing. However, since time was of essence, I finally decided on a Project by ‘Home Credit’ which I found on Kaggle. While it did not require much NLP skills (or any), it did require a lot of feature engineering and modelling expertise, which I thought is what I can settle for as of now and can then take up an NLP side project in the future.
 </div>
 
-Home Credit, a  is an international non-banking financial company which provides loans to customers with no or not enough credit history who traditionally may not be able to get financed by banks or other NBFCs.
+Home Credit, is an international non-banking financial company which provides loans to customers with no or not enough credit history who traditionally may not be able to get financed by banks or other NBFCs.
 
 This Project is about predicting customers who will default based on information provided by a detailed loan application and other records including previous loan/payment records of the same customers as well credit-bureau information and external credit information from other sources.
-The Company has separately provided test data on which the competing teams will have to submit their predictions. Since I am doing this as part of my Course and may not be able to get my predictions verified from Home Credit as the Project is way past its due date, I will be splitting up the training data into train and test segments.
+The Company has separately provided test data on which the competing teams will have to submit their predictions. 
 
 A quick overview of all the files is below:
 
@@ -21,10 +21,10 @@ This is a standard supervised classification problem.
 Every row in the application_train file corresponds to information provided by the customer in the loan application at the time of applying. Every row also has a ‘Target’ label with values 0 (customer paid on time) and 1(customer had difficulty paying). Looking at the above table, one can observe that we have been provided with information of 307,511 customers in the training file.
 
 Target Analysis:
-The first aspect to be noticed is that ‘baseline Accuracy’ is at ~91% which means its’ a case of imbalanced classification and hence will require us to consider various ways of sampling data.
+The first aspect to be noticed is that ‘baseline Accuracy’ is at ~91% which means it's a case of imbalanced classification and hence will require us to consider various ways of sampling data.
 The above means that 91% of customers repay on time and 9% have problems. So if we were to make a model which predicts all customers as 0 (means paying on time) then we will still achieve an accuracy rate of 91%. So alongside accuracy, what matters more then is how many of the customers do we correctly predict, which is also called ‘Recall’. Hence our objective is to optimise on ‘Recall’ and ‘Accuracy’ scores. 
 </div>
-A quick overview of the how the files look:
+A quick overview of how the files look:
 
 <img src="./Graphs/Application train.png" width="800"/>
 <img src="./Graphs/application_test.png" width="800"/>
@@ -91,8 +91,9 @@ So I applied SMOTE which improved the Recall score quite drastically, however, I
 
 <img src="./Graphs/score_lat.png" width="900"/>
 
-
-I will be uploading the code soon
+The accompanying code is:
+1. Application_train_git - which is to showcase how this particular file was cleaned, feature engineered and saved so as to be later on be merged into the final file which will be used to model the data. Similarly, other files were also worked upon.
+2. Cap_model - Modelling score on cleaned and merged files.
 
 
 
